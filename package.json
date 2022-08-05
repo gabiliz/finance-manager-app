@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://minance-api.herokuapp.com/api/v1/",
   "scripts": {
+    "start": "set PORT=4000 && vite start",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
